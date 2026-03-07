@@ -1,0 +1,176 @@
+.team-section {
+  max-width: 1100px;
+  margin: 80px auto;
+  text-align: center;
+}
+
+.team-section h2 {
+  margin-bottom: 40px;
+  color: #730D4A;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  gap: 30px;
+}
+
+.team-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.team-card:hover {
+  transform: translateY(-5px);
+}
+
+.team-card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.team-card h3 {
+  margin-bottom: 5px;
+}
+
+.role {
+  color: #730D4A;
+  font-weight: bold;
+}
+
+.club-intro {
+  max-width: 850px;
+  margin: 60px auto;
+  text-align: center;
+}
+
+.club-intro h1 {
+  color: #730D4A;
+  font-size: 2.6rem;
+  margin-bottom: 20px;
+}
+
+.club-lead {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #730D4A;
+  margin-bottom: 25px;
+}
+
+.club-intro p {
+  line-height: 1.7;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.club-intro h1::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 4px;
+  background: #730D4A;
+  margin: 15px auto 0;
+}
+
+.disciplines {
+  max-width: 1100px;
+  margin: 80px auto;
+}
+
+.disciplines-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+  gap: 30px;
+}
+
+.discipline-card {
+  text-align: center;
+  padding: 30px;
+  border-radius: 12px;
+  background: white;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.2s;
+}
+
+.discipline-card:hover {
+  transform: translateY(-5px);
+}
+
+.icon {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.discipline-card h3 {
+  color: #730D4A;
+  margin-bottom: 10px;
+}
+
+.hero-club {
+  height: 420px;
+  background-image: url("/images/challenge-noel-2025.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-overlay {
+  background: rgba(0,0,0,0.45);
+  padding: 40px 60px;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+}
+
+.hero-overlay h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero-overlay p {
+  font-size: 1.2rem;
+}
+
+.club-stats {
+
+  background: var(--violet);
+  color: var(--white);
+
+  padding: 60px 20px;
+
+}
+
+.stats-grid {
+
+  max-width: 1100px;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+  gap: 30px;
+
+  text-align: center;
+
+}
+
+.stat h3 {
+
+  font-size: 2.5rem;
+  margin-bottom: 5px;
+
+}
+
+.stat p {
+
+  font-size: 1rem;
+  opacity: 0.9;
+
+}

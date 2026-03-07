@@ -2,11 +2,20 @@
   --violet: #730D4A;
   --white: #ffffff;
   --black: #000000;
+
+    /* extensions */
+
+  --violet-light: #9A1B68;
+  --violet-dark: #520735;
+
+  --gray-light: #f6f6f6;
+  --text-color: #333;
 }
 
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+    font-family: "Segoe UI", "Roboto", "Helvetica", sans-serif;
+  color: var(--text-color);
   background: var(--white);
   color: var(--black);
 }
@@ -94,4 +103,22 @@ footer {
   .hero h1 {
     font-size: 2em;
   }
+}
+
+.section-title {
+  color: #730D4A;
+  font-size: 2.4rem;
+  text-align: center;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.section-title::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 4px;
+  background: #730D4A;
+  margin: 15px auto 0;
+  border-radius: 2px;
 }
