@@ -11,6 +11,7 @@
 
 body {
   margin: 0;
+  padding-top: 60px; /* Ajoute un espace pour éviter que le contenu soit caché sous le header */
   font-family: "Segoe UI","Roboto","Helvetica",sans-serif;
   color: var(--text-color);
   background: var(--white);
@@ -25,11 +26,13 @@ body {
 /* HEADER */
 
 .site-header {
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
+  width: 100%;
   z-index: 1000;
   background: var(--white);
-  border-bottom: 1px solid #eee;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .nav-container {
@@ -121,6 +124,7 @@ body {
 /* OVERLAY */
 
 .menu-overlay {
+  z-index: 1;
   position: fixed;
   top:0;
   left:0;
