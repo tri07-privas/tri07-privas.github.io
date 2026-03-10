@@ -1,7 +1,7 @@
 .hero-inscriptions {
   height: 420px;
 
-  background-image: url('/images/club-groupe.jpg');
+  background-image: url("/images/club-groupe.jpg");
   background-size: cover;
   background-position: center;
 
@@ -68,7 +68,7 @@ main {
 
 .hero-inscriptions {
   height: 420px;
-  background-image: url('/images/club-groupe.jpg');
+  background-image: url("/images/club-groupe.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -285,8 +285,6 @@ main {
   background: #fff6fb;
 
   border-left: 5px solid var(--violet);
-
-  padding: 25px;
 
   border-radius: 6px;
 }
