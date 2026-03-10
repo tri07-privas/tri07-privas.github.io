@@ -90,6 +90,7 @@ main {
 }
 
 .paiement-item {
+  border-top: 5px solid var(--violet);
   display: flex;
   align-items: center;
   gap: 15px;
