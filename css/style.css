@@ -25,6 +25,10 @@ body {
   padding: 20px 20px;
 }
 
+.align-center {
+  text-align: center;
+}
+
 /* HEADER */
 
 .site-header {
