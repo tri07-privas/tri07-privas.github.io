@@ -1,118 +1,9 @@
 .hero-inscriptions {
-  height: 420px;
-
   background-image: url("/images/club-groupe.jpg");
-  background-size: cover;
-  background-position: center;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* même overlay que les autres pages */
-
-.hero-overlay {
-  background: rgba(0, 0, 0, 0.45);
-
-  padding: 40px 60px;
-
-  text-align: center;
-  color: white;
-
-  border-radius: 10px;
-}
-
-.hero-overlay h1 {
-  font-size: 3rem;
-  margin-bottom: 10px;
-}
-
-.hero-overlay p {
-  font-size: 1.2rem;
 }
 
 main {
   background: #f7f7f7;
-}
-/* TARIFS */
-
-.tarif-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 25px;
-  margin-bottom: 40px;
-}
-
-.tarif-card {
-  background: white;
-
-  border-radius: 12px;
-
-  padding: 30px;
-
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
-
-  border-top: 5px solid var(--violet);
-
-  transition: transform 0.2s;
-}
-
-.tarif-card:hover {
-  transform: translateY(-4px);
-}
-
-.tarif-card h3 {
-  color: var(--violet);
-}
-
-.hero-inscriptions {
-  height: 420px;
-  background-image: url("/images/club-groupe.jpg");
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.hero-overlay {
-  background: rgba(0, 0, 0, 0.45);
-  padding: 40px 60px;
-
-  text-align: center;
-  color: white;
-  border-radius: 10px;
-}
-.hero-overlay h1 {
-  font-size: 3rem;
-  margin-bottom: 10px;
-}
-.hero-overlay p {
-  font-size: 1.2rem;
-}
-
-main {
-  background: #f7f7f7;
-}
-
-/* CARDS (mutualisé) */
-
-.card {
-  text-align: center;
-  background: white;
-  border-radius: 12px;
-  padding: 30px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
-  border-top: 5px solid var(--violet);
-  transition: transform 0.2s;
-}
-.card:hover {
-  transform: translateY(-4px);
-}
-
-.card h3 {
-  color: var(--violet);
 }
 
 /* TARIFS */
@@ -153,6 +44,7 @@ main {
   max-width: 700px;
   margin: auto;
 }
+
 .step {
   display: flex;
   align-items: center;
@@ -172,22 +64,6 @@ main {
   justify-content: center;
   font-weight: bold;
   margin-right: 15px;
-}
-
-/* BOUTON */
-
-.btn-inscription {
-  display: inline-block;
-  margin-top: 40px;
-  background: var(--violet);
-  color: white;
-  padding: 14px 30px;
-  border-radius: 6px;
-  text-decoration: none;
-  font-weight: bold;
-}
-.btn-inscription:hover {
-  background: #5e0a3c;
 }
 
 /* INFO */
@@ -214,15 +90,6 @@ main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 20px;
-}
-
-.paiement-card {
-  background: white;
-  text-align: center;
-  padding: 25px;
-
-  border-radius: 10px;
-  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.08);
 }
 
 /* PROCEDURE */
@@ -259,26 +126,6 @@ main {
   font-weight: bold;
 
   margin-right: 15px;
-}
-
-/* BOUTON */
-
-.btn-inscription {
-  display: inline-block;
-  margin-top: 40px;
-
-  background: var(--violet);
-  color: white;
-
-  padding: 14px 30px;
-  border-radius: 6px;
-
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.btn-inscription:hover {
-  background: #5e0a3c;
 }
 
 .info-box {

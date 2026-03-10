@@ -6,7 +6,7 @@ if (window.location.pathname.endsWith("/index.html")) {
   window.history.replaceState(null, "", cleanPath);
 }
 
-/* chargement du header */
+/* chargement des html */
 
 fetch("/includes/header.html")
   .then(res => res.text())
@@ -16,6 +16,12 @@ fetch("/includes/header.html")
 
     initMenu(); // on initialise le menu APRES injection
 
+  });
+
+fetch("/includes/footer.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("footer-placeholder").innerHTML = data;
   });
 
 

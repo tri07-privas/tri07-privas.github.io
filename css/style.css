@@ -1,3 +1,5 @@
+@import "./components.css";
+
 :root {
   --violet: #730d4a;
   --white: #ffffff;
@@ -12,7 +14,7 @@
 body {
   margin: 0;
   padding-top: 60px; /* Ajoute un espace pour éviter que le contenu soit caché sous le header */
-  font-family: 'Segoe UI', 'Roboto', 'Helvetica', sans-serif;
+  font-family: "Segoe UI", "Roboto", "Helvetica", sans-serif;
   color: var(--text-color);
   background: var(--white);
 }
@@ -74,7 +76,7 @@ body {
 }
 
 .nav-menu a::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -4px;
   left: 0;
@@ -143,41 +145,8 @@ body {
 
 /* HERO */
 
-.hero {
-  position: relative;
-  background: url('../images/accueil.jpg') center/cover no-repeat;
-  color: white;
-  text-align: center;
-  padding: 120px 20px;
-}
-
-.hero::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: rgba(115, 13, 74, 0.6);
-}
-
-.hero .container {
-  position: relative;
-  z-index: 2;
-}
-
-.hero h1 {
-  font-size: 3rem;
-  margin-bottom: 20px;
-}
-
-/* BUTTON */
-
-.btn {
-  display: inline-block;
-  background: black;
-  color: white;
-  padding: 12px 25px;
-  border-radius: 6px;
-  text-decoration: none;
-  font-weight: bold;
+.hero-accueil {
+  background-image: url("/images/accueil.jpg");
 }
 
 /* CARDS */
@@ -186,25 +155,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-}
-
-.card {
-  flex: 1;
-  min-width: 220px;
-  background: var(--violet);
-  color: white;
-  padding: 20px;
-  border-radius: 8px;
-}
-
-/* FOOTER */
-
-footer {
-  text-align: center;
-  padding: 20px;
-  background: black;
-  color: white;
-  margin-top: 40px;
 }
 
 /* MOBILE */
@@ -222,6 +172,7 @@ footer {
     padding-top: 80px;
     transition: 0.3s;
     box-shadow: -3px 0 10px rgba(0, 0, 0, 0.15);
+    gap: 10px;
   }
 
   .nav-menu.open {
@@ -239,5 +190,20 @@ footer {
 
   .features {
     flex-direction: column;
+  }
+
+  .menu-logo {
+    text-align: center;
+    padding: 40px 0;
+  }
+
+  .menu-logo img {
+    height: 100px;
+  }
+}
+
+@media (min-width: 768px) {
+  .menu-logo {
+    display: none;
   }
 }

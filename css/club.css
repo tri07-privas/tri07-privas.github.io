@@ -50,12 +50,6 @@
   text-align: center;
 }
 
-.club-intro h1 {
-  color: #730d4a;
-  font-size: 2.6rem;
-  margin-bottom: 20px;
-}
-
 .club-lead {
   font-size: 1.3rem;
   font-weight: 500;
@@ -67,15 +61,6 @@
   line-height: 1.7;
   margin-bottom: 15px;
   color: #333;
-}
-
-.club-intro h1::after {
-  content: "";
-  display: block;
-  width: 80px;
-  height: 4px;
-  background: #730d4a;
-  margin: 15px auto 0;
 }
 
 .disciplines {
@@ -122,23 +107,6 @@
   justify-content: center;
 }
 
-.hero-overlay {
-  background: rgba(0, 0, 0, 0.45);
-  padding: 40px 60px;
-  text-align: center;
-  color: white;
-  border-radius: 10px;
-}
-
-.hero-overlay h1 {
-  font-size: 3rem;
-  margin-bottom: 10px;
-}
-
-.hero-overlay p {
-  font-size: 1.2rem;
-}
-
 .club-stats {
   background: var(--violet);
   color: var(--white);
@@ -165,4 +133,17 @@
 .stat p {
   font-size: 1rem;
   opacity: 0.9;
+}
+
+.partenaires img {
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+.partenaire {
+  text-align: center;
+}
+.partenaire p {
+  font-size: 0.95rem;
+  color: #444;
 }

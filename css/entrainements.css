@@ -1,28 +1,5 @@
-/* HERO */
-
 .hero-training {
-  height: 350px;
   background-image: url("/images/piscine-exterieure.jpg");
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.hero-overlay {
-  background: rgba(0, 0, 0, 0.5);
-  padding: 40px;
-  color: white;
-  text-align: center;
-}
-
-.hero-overlay h1 {
-  font-size: 3rem;
-}
-
-.hero-overlay p {
-  font-size: 1.2rem;
 }
 
 /* INTRO */

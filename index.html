@@ -3,10 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> TRI07 Privas - Club de triathlon en Ardèche | Natation Vélo Course </title>
+    <title>
+      TRI07 Privas - Club de triathlon en Ardèche | Natation Vélo Course
+    </title>
     <meta
       name="description"
-      content="Club de triathlon à Privas : école de triathlon, entraînements adultes, compétitions et aquathlon." />
+      content="Club de triathlon à Privas : école de triathlon, entraînements adultes, compétitions et aquathlon."
+    />
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="css/style.css" />
     <script defer src="js/script.js"></script>
@@ -24,50 +27,13 @@
         }
       }
     </script>
-    <style>
-      /* Hero avec image de fond */
-      .hero {
-        position: relative;
-        background: url('images/accueil.jpg') center/cover no-repeat;
-        color: #ffffff;
-        text-align: center;
-        padding: 120px 20px;
-      }
-
-      .hero::after {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(115, 13, 74, 0.6); /* violet semi-transparent pour lisibilité */
-        z-index: 1;
-      }
-
-      .hero .container {
-        position: relative;
-        z-index: 2;
-      }
-
-      .btn {
-        display: inline-block;
-        background: #000000;
-        color: #ffffff;
-        padding: 12px 25px;
-        border-radius: 6px;
-        text-decoration: none;
-        font-weight: bold;
-        margin-top: 15px;
-      }
-    </style>
   </head>
 
   <body>
     <div id="header-placeholder"></div>
 
-    <section class="hero">
-      <div class="container">
+    <section class="hero-accueil hero">
+      <div class="hero-overlay">
         <h1>TRI07 Privas Triathlon</h1>
         <p>Natation • Vélo • Course à pied</p>
         <a class="btn" href="/inscriptions/">Rejoindre le club</a>
@@ -75,15 +41,14 @@
     </section>
 
     <section class="container">
-      <h2>Présentation du club</h2>
+      <h2 class="section-title">Présentation du club</h2>
       <p>
-        Le TRI07 Privas Triathlon est un club ardéchois proposant le triathlon pour tous, du débutant au compétiteur
-        confirmé.
+        Le TRI07 Privas Triathlon est un club ardéchois proposant le triathlon
+        pour tous, du débutant au compétiteur confirmé.
       </p>
       <ul>
         <li>École de triathlon (8-19 ans)</li>
         <li>Entraînements adultes</li>
-        <li>Triathlon santé</li>
         <li>Organisation de l'aquathlon de Privas</li>
         <li>Participation aux compétitions régionales</li>
       </ul>
@@ -102,12 +67,13 @@
 
       <div class="card">
         <h3>Compétitions et événements</h3>
-        <p> Participation à des courses régionales et organisation annuelle de l'Aquathlon de Privas. </p>
+        <p>
+          Participation à des courses régionales et organisation annuelle de
+          l'Aquathlon de Privas.
+        </p>
       </div>
     </section>
 
-    <footer>
-      <p>© TRI07 Privas Triathlon</p>
-    </footer>
+    <div id="footer-placeholder"></div>
   </body>
 </html>
