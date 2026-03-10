@@ -11,7 +11,7 @@
 }
 
 .hero-overlay {
-  background: rgba(0,0,0,0.5);
+  background: rgba(0, 0, 0, 0.5);
   padding: 40px;
   color: white;
   text-align: center;
@@ -25,7 +25,6 @@
   font-size: 1.2rem;
 }
 
-
 /* INTRO */
 
 .training-intro {
@@ -34,7 +33,6 @@
   text-align: center;
   font-size: 1.1rem;
 }
-
 
 /* SECTIONS */
 
@@ -45,7 +43,6 @@
 .training-block.alt {
   background: #f6f6f6;
 }
-
 
 /* GRID */
 
@@ -61,7 +58,7 @@
 /* TEXT */
 
 .training-text h2 {
-  color: #730D4A;
+  color: #730d4a;
   margin-bottom: 15px;
 }
 
@@ -80,7 +77,6 @@
 /* MOBILE */
 
 @media (max-width: 900px) {
-
   .training-grid {
     grid-template-columns: 1fr;
   }
@@ -88,5 +84,4 @@
   .hero-overlay h1 {
     font-size: 2rem;
   }
-
 }
