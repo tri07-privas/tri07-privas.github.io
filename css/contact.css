@@ -1,0 +1,21 @@
+.hero-contact {
+  background-image: url("/images/apero.jpg");
+}
+
+.contact-grid {
+  margin-top: 30px;
+}
+
+.contact-card p {
+  margin: 8px 0;
+}
+
+.contact-note {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 10px;
+}
+
+.lieu-card {
+  text-align: center;
+}
