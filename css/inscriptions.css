@@ -22,11 +22,6 @@ main {
   color: var(--primary-color);
 }
 
-.reduction {
-  font-size: 0.9rem;
-  color: #777;
-}
-
 /* PAIEMENT */
 
 .paiement {
@@ -67,13 +62,6 @@ main {
 }
 
 /* INFO */
-
-.info-box {
-  background: #fff6fb;
-  border-left: 5px solid var(--primary-color);
-  padding: 25px;
-  border-radius: 6px;
-}
 
 .reduction {
   font-size: 0.9rem;

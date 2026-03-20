@@ -2,15 +2,6 @@
   background-image: url("/images/piscine-exterieure.jpg");
 }
 
-/* INTRO */
-
-.training-intro {
-  max-width: 900px;
-  margin: 40px auto;
-  text-align: center;
-  font-size: 1.1rem;
-}
-
 /* SECTIONS */
 
 .training-block {
@@ -32,17 +23,6 @@
   align-items: center;
 }
 
-/* TEXT */
-
-/* .training-text h2 {
-  color: #730d4a;
-  margin-bottom: 15px;
-}
-
-.training-text p {
-  line-height: 1.6;
-} */
-
 /* IMAGES */
 
 .training-images img {
@@ -61,4 +41,16 @@
   .hero-overlay h1 {
     font-size: 2rem;
   }
+}
+
+.planning {
+  background: #f7f7f7;
+  padding: 60px 20px;
+}
+
+.planning-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
 }

@@ -145,3 +145,29 @@
   font-size: 0.9rem;
   opacity: 0.7;
 }
+
+.social-icons {
+  display: flex;
+  gap: 12px;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.social-icons img {
+  width: 22px;
+  height: 22px;
+  opacity: 0.8;
+  transition: 0.2s;
+}
+
+.social-icons img:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.info-box {
+  background: #fff6fb;
+  border-left: 5px solid var(--primary-color);
+  padding: 25px;
+  border-radius: 6px;
+}
