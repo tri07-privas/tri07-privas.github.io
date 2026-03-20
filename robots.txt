@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://tri07-privas.github.io/sitemap.xml
+Sitemap: https://tri07-privas.fr/sitemap.xml
