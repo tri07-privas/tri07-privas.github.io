@@ -108,7 +108,7 @@
 }
 
 .club-stats {
-  background: var(--violet);
+  background: var(--primary-color);
   color: var(--white);
 
   padding: 60px 20px;

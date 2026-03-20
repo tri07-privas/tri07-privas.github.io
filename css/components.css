@@ -10,7 +10,7 @@
 
 .section-title {
   text-align: center;
-  color: var(--violet);
+  color: var(--primary-color);
   font-size: 2rem;
   margin-bottom: 20px;
 }
@@ -20,7 +20,7 @@
   display: block;
   width: 80px;
   height: 4px;
-  background: var(--violet);
+  background: var(--primary-color);
   margin: 15px auto 0;
 }
 
@@ -31,7 +31,7 @@
   border-radius: 12px;
   padding: 30px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
-  border-top: 5px solid var(--violet);
+  border-top: 5px solid var(--primary-color);
   transition: transform 0.2s;
 }
 
@@ -40,13 +40,13 @@
 }
 
 .card h3 {
-  color: var(--violet);
+  color: var(--primary-color);
 }
 
 .btn {
   display: inline-block;
   padding: 14px 30px;
-  background: var(--violet);
+  background: var(--primary-color);
   color: white;
   text-decoration: none;
   border-radius: 6px;

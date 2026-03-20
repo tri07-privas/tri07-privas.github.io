@@ -1,7 +1,7 @@
 @import "./components.css";
 
 :root {
-  --violet: #730d4a;
+  --primary-color: #a60f2b;
   --white: #ffffff;
   --black: #000000;
 
@@ -57,7 +57,7 @@ body {
   align-items: center;
   gap: 10px;
   text-decoration: none;
-  color: var(--violet);
+  color: var(--primary-color);
   font-weight: bold;
 }
 
@@ -74,7 +74,7 @@ body {
 
 .nav-menu a {
   text-decoration: none;
-  color: var(--violet);
+  color: var(--primary-color);
   font-weight: 600;
   position: relative;
 }
@@ -86,7 +86,7 @@ body {
   left: 0;
   width: 0;
   height: 2px;
-  background: var(--violet);
+  background: var(--primary-color);
   transition: width 0.3s;
 }
 
@@ -108,7 +108,7 @@ body {
 .hamburger span {
   height: 3px;
   width: 100%;
-  background: var(--violet);
+  background: var(--primary-color);
   border-radius: 2px;
   transition: all 0.3s ease;
 }

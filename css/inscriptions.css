@@ -19,7 +19,7 @@ main {
   font-size: 2.2rem;
   font-weight: 700;
   margin: 12px 0;
-  color: var(--violet);
+  color: var(--primary-color);
 }
 
 .reduction {
@@ -56,7 +56,7 @@ main {
   height: 40px;
   min-width: 40px;
   flex-shrink: 0;
-  background: var(--violet);
+  background: var(--primary-color);
   color: white;
   border-radius: 50%;
   display: flex;
@@ -70,7 +70,7 @@ main {
 
 .info-box {
   background: #fff6fb;
-  border-left: 5px solid var(--violet);
+  border-left: 5px solid var(--primary-color);
   padding: 25px;
   border-radius: 6px;
 }
@@ -90,7 +90,7 @@ main {
 }
 
 .paiement-item {
-  border-top: 5px solid var(--violet);
+  border-top: 5px solid var(--primary-color);
   display: flex;
   align-items: center;
   gap: 15px;
@@ -132,7 +132,7 @@ main {
 
   flex-shrink: 0;
 
-  background: var(--violet);
+  background: var(--primary-color);
   color: white;
 
   border-radius: 50%;
@@ -149,7 +149,7 @@ main {
 .info-box {
   background: #fff6fb;
 
-  border-left: 5px solid var(--violet);
+  border-left: 5px solid var(--primary-color);
 
   border-radius: 6px;
 }
