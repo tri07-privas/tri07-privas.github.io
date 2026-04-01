@@ -4,11 +4,6 @@
   text-align: center;
 }
 
-.team-section h2 {
-  margin-bottom: 40px;
-  color: #730d4a;
-}
-
 .team-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
