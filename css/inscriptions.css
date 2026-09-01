@@ -27,6 +27,7 @@ main {
 .paiement {
   background: #fafafa;
 }
+
 .paiement-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -66,6 +67,20 @@ main {
 .reduction {
   font-size: 0.9rem;
   color: #777;
+}
+
+.club-message {
+  margin: 12px 0 0;
+  display: inline-block;
+  padding: 7px 10px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #fff1f8, #ffe8b2);
+  border: 1px solid rgba(194, 26, 86, 0.18);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: var(--primary-color);
+  box-shadow: 0 4px 12px rgba(194, 26, 86, 0.08);
 }
 
 /* PAIEMENT */
